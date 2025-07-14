@@ -2,7 +2,7 @@
   "name": "VISPER-MD",
   "version": "3.0.0",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Visper",
+    "start": "pm2 start start.js --deep-monitoring --attach --name Visper",
     "stop": "pm2 stop Visper",
     "restart": "git pull && npm stop && npm start",
     "stash": "git stash && git stash drop"
